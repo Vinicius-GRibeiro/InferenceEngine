@@ -2,8 +2,8 @@ from core import engine
 from core.step import Step
 from ast_types.ast_or import Or
 from ast_types.ast_var import Var
-from ast_types.ast_and import And
 from ast_types.ast_not import Not
+from ast_types.ast_and import And
 from core.truth_table import TruthTable
 from ast_types.ast_implication import Implication
 
