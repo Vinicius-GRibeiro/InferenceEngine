@@ -410,8 +410,7 @@ Dado um argumento, o programa prova se ele é válido ou não. Utilizando as reg
 #### 1. Instalação
 Clone o repositório:
 ```
-git clone https://github.com/Vinicius-GRibeiro/BooleanLogicEngine.git
-cd BooleanLogicEngine
+git clone https://github.com/Vinicius-GRibeiro/InferenceEngine.git
 ```
 
 <br>
