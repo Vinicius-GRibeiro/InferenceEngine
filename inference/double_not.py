@@ -1,6 +1,6 @@
-from step import Step
-from boolean_logic.ast_types.ast_not import Not
-from boolean_logic.ast_types.ast_var import Var
+from core.step import Step
+from ast_types.ast_not import Not
+from ast_types.ast_var import Var
 
 def apply_double_not(steps: list[Step]):
     new_steps = []

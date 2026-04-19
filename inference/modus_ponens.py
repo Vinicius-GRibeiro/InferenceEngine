@@ -1,7 +1,7 @@
-from step import Step
-from boolean_logic.ast_types.ast_implication import Implication
-from boolean_logic.ast_types.ast_var import Var
-from boolean_logic.ast_types.ast_and import And
+from core.step import Step
+from ast_types.ast_implication import Implication
+from ast_types.ast_var import Var
+from ast_types.ast_and import And
 
 def apply_modus_ponens(steps: list[Step]):
     new_steps = []

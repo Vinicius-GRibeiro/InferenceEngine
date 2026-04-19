@@ -1,9 +1,9 @@
-from step import Step
-from boolean_logic.ast_types.ast_implication import Implication
-from boolean_logic.ast_types.ast_not import Not
-from boolean_logic.ast_types.ast_var import Var
-from boolean_logic.ast_types.ast_and import And
-from boolean_logic.ast_types.ast_or import Or
+from core.step import Step
+from ast_types.ast_implication import Implication
+from ast_types.ast_not import Not
+from ast_types.ast_var import Var
+# from ast_types.ast_and import And
+# from ast_types.ast_or import Or
 
 
 def apply_modus_tollens(steps: list[Step]):

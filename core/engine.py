@@ -1,6 +1,9 @@
-from modus_tollens import apply_modus_tollens, Implication, Not, Var, Step, And, Or
-from modus_ponens import apply_modus_ponens
-from double_not import apply_double_not
+from inference.modus_tollens import apply_modus_tollens
+from inference.modus_ponens import apply_modus_ponens
+from inference.double_not import apply_double_not
+from core.step import Step
+from ast_types.ast_var import Var
+from ast_types.ast_implication import Implication
 
 def run(premisses_steps: list[Step]):
     known_exprs = set(step.hipotesis for step in premisses_steps)

@@ -475,12 +475,13 @@ print(resultado)
 <br>
 
 #### 5. Gerando Tabela-Verdade
+
 ```python
 from boolean_logic.ast_types.ast_and import And
 from boolean_logic.ast_types.ast_or import Or
 from boolean_logic.ast_types.ast_not import Not
 from boolean_logic.ast_types.ast_implication import Implication
-from truth_table import TruthTable
+from core.truth_table import TruthTable
 
 p = Var('P')
 q = Var('Q')

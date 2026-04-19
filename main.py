@@ -1,11 +1,22 @@
-from justify.step import Step
-from justify.engine import run
+from ast_types.ast_and import And
+from ast_types.ast_or import Or
+from ast_types.ast_not import Not
 from ast_types.ast_var import Var
 from ast_types.ast_implication import Implication
-from ast_types.ast_not import Not
-from ast_types.ast_or import Or
-from ast_types.ast_and import And
-from truth_table import TruthTable
+
+from core.truth_table import TruthTable
+from core.step import Step
+from core import engine
+
+a = Var('A')
+b = Var('B')
+c = Var('C')
+
+imp1 = Implication(a, b)
+
+engine.run([Step(Not(b)), Step(imp1)])
+
+
 
 # INICIE AQUI
 
