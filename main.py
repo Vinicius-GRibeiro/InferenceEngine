@@ -8,13 +8,7 @@ from core.truth_table import TruthTable
 from ast_types.ast_implication import Implication
 
 # INICIE AQUI
-a = Var('A')
-b = Var('B')
-c = Var('C')
 
-imp1 = Implication(a, b)
-
-engine.run([Step(Not(b)), Step(imp1)])
 
 # TESTES
 #
