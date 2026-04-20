@@ -17,8 +17,8 @@ class Or:
     def __extract_var_duplicated(self):
         return self.left.extract_var() + self.right.extract_var()
 
-    def extract_var(expr):
-        return list({v.name: v for v in expr.__extract_var_duplicated()}.values())
+    def extract_var(self):
+        return list({v.name: v for v in self.__extract_var_duplicated()}.values())
 
     def __repr__(self):
         return f"({self.left} ∨ {self.right})"
